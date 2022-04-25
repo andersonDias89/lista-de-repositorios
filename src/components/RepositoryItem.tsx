@@ -1,6 +1,21 @@
 import styled from "styled-components";
 
-const Styled = styled.div``;
+const Styled = styled.div`
+li{
+  list-style: none;
+  margin-bottom: 20px;
+  strong{
+    font-size: 23px;
+    color: #521669;
+    
+  }
+  a{
+    color: #871cb1;
+    text-decoration: none;
+  }
+
+}
+`;
 
 interface RepositoryItemProps {
     repository: {

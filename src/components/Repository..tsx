@@ -2,7 +2,11 @@ import styled from 'styled-components'
 import { RepositoryItem } from '../components/RepositoryItem'
 import { useEffect, useState } from 'react'
 
-const Styled = styled.div``
+const Styled = styled.div`
+h1{
+    margin-bottom: 20px;
+}
+`
 
 interface Repository {
     name : string;
